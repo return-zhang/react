@@ -1,0 +1,67 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.yan h2{
+	padding: 0.4rem 0;
+}
+.yan{
+	width:100%;
+}
+.ycon{
+	width: 100%;
+	overflow: hidden;
+}
+.yleft{
+	width: 50%;
+	float: left;
+}
+.yright{
+	width: 50%;
+	float: right;
+}
+.ytop{
+	width: 100%;
+}
+.ybtn{
+	display: flex;
+}
+.yleft img,.yright .ytop img{
+	width: 100%;
+}
+.yright .ybtm img{
+	width: 50%;
+}
+.ytit h2{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+.ytit span{
+	font-size: 1rem;
+	font-weight: 100;
+	float: right;
+	margin-top: 0.4rem;
+}
+.ytit span img{
+	margin:0 0.5rem 0 0.2rem;
+	height: .8rem;
+	
+}
+.yconn{
+	width: 100%;
+	display: flex;
+}
+.yconn div{
+	text-align: center;
+	width: 33.3%;
+
+}
+.yconn div img{
+	width: 60%;
+	margin: 1rem 0;
+}
+.yconn div span{
+	display: block;
+}
