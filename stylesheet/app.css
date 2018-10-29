@@ -1,0 +1,32 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";font-size: 16px;}
+input,a{outline:none;}
+        .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+        .clearfix{zoom:1;}
+
+.zfc_header{position: fixed;top: 2rem;left: 3.5%;
+	background: #ccc;padding: .3rem;width: 90%;margin: 0 auto;border-radius: 20px; text-align: center;
+}
+.zfc_header input{background: #ccc;border: 0;}
+
+.zfc_banner{width: 90%; ;margin: 1rem auto;margin-top: 5rem;}
+.zfc_banner img{width: 100%;}
+
+.zfc_list li { float: left;width: 20%;text-align: center;font-size: .8rem;}
+.zfc_list li img{width: 50%;margin: 0 auto;}
+
+.zfc_vip{
+background: -webkit-linear-gradient(right, #FFF6BA , #F4C664); /* Safari 5.1 - 6.0 */
+background: -o-linear-gradient(right, #FFF6BA, #F4C664); /* Opera 11.1 - 12.0 */
+background: -moz-linear-gradient(right, #FFF6BA, #F4C664); /* Firefox 3.6 - 15 */
+background: linear-gradient(to right, #FFF6BA , #F4C664); /* 标准的语法（必须放在最后） */
+	width: 90%;margin: 1rem auto;border-radius: 10px;padding: .3rem .8rem;;
+}
+.zfc_vip span{font-size: 1rem;font-weight: bold;float: left;}
+.zfc_vip p{font-size: .7rem;float: left;margin-top: .2rem;}
+.zfc_vip a{font-size: .7rem;float: right;margin-top: .2rem;}
